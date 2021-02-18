@@ -9,11 +9,10 @@
 <body>
 
 <div class="content">
-	<div class="header">
-		<a href="#">Главная</a>
-		<a href="puzzle.html">Загадки</a>
-		<a href="guess.html">Угадайка</a>
-	</div>
+	
+	<?php
+		include "menu.php";
+	?>
 
 	<h1>Личный сайт студента GeekBrains</h1>
 
@@ -25,14 +24,14 @@
 			<p>В этом мне помог IT-портал <a href="https://geekbrains.ru">GeekBrains</a></p>
 
 			<p>На этом сайте вы сможете сыграть в несколько игр, которые я написала: <br>
-			<a href="puzzle.html">Загадки</a>,
+			<a href="puzzle.php">Загадки</a>,
 			<a href="guess.html">Угадайка</a>
 			</p>
 		</div>
 	</div>
 </div>
 <div class="footer">
-	Copyright &copy; Alexandra Mazakova
+	Copyright &copy; <?php echo date("Y");?> Alexandra Mazakova
 <div>
 
 
