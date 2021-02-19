@@ -32,7 +32,7 @@
 
 							};
 
-							$userAnswer = $_GET["userAnswer2"];
+							$userAnswer = $_GET["userAnswer2" ];
 							if ($userAnswer == "ножницы" || $userAnswer == "yj;ybws"){
 								$score++;
 
